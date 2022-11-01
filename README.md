@@ -15,13 +15,13 @@ This is primarily for my own reference, but can be used as a guide to making fir
 - Make sure automatic updates are enabled for firefox.
 - From the 'Home' category, disable snippets, recommended by pocket, recent activity and shortcuts.
 - From the 'Search' category, uncheck 'Provide search suggestions'.
-- Choose a privacy respecting search engine.  personally use Brave Search. 
+- Choose a privacy respecting search engine. I personally use Brave Search. 
 - From the 'Privacy & Security' section, set Enhanced Tracking Protection to 'strict'. 
 - Check 'Delete cookies and site data when Firefox is closed'.
 - Uncheck 'Ask to save logins and passwords for websites'. Use Bitwarden or KeepassXC instead. 
 - Check 'Always use private browsing mode'. 
 - Uncheck everything in 'Firefox Data Collection and Use'. If you want to keep telemetry enabled, you can alter these settings accordingly.
-- Uncheck 'Block dangerous and deceptive content'. This sends data to Google,but leave it enabled if it works for your threat model. 
+- Uncheck 'Block dangerous and deceptive content'. This sends data to Google, but leave it enabled if it works for your threat model. 
 - Enable HTTPS-Only Mode in all windows.
 
 ## Settings in the about:config menu
@@ -29,15 +29,9 @@ This is primarily for my own reference, but can be used as a guide to making fir
 1. Type `about:config` in the search bar.
 1. Click 'Accept the Risk and Continue'. 
 1. Start changing the settings accordingly:
-- Set `fission.autostart` to `true`.
-- Set `extensions.pocket.enabled` to `false`.
-- Set `toolkit.telemetry.enabled` to `false`.
-- Set `toolkit.telemetry.rejected`to `true`.
-- Set `privacy.trackingprotection.cryptomining.enabled` to `true`. 
+- Set `extensions.pocket.enabled` to `false`. 
 - Set `privacy.firstparty.isolate` to `true`.
-- Set `geo.enabled`to `false`.
-- Set `extensions.experiments.enabled`to false.
-- Set `app.shield.optoutstudies.enabled`to `false`. 
+- Set `geo.enabled` to `false`.
 - If you do not use web notifications, set `dom.webnotifications.enabled` to `false`. 
 
 ## One Click Addons
